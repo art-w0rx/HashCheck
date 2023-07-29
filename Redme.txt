@@ -1,0 +1,1 @@
+Create a folder "files" in the folder with the program.  Put the files you want to compare there.  Then run the program and enter the name of the first and second file along with the extension and the program will show the result if the hashes are equal, then the program will say true, if not equal, then not true.
