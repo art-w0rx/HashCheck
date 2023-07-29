@@ -23,6 +23,8 @@ def compare_hashes(file1, file2):
     # Вычисляем хэш-суммы для обоих файлов
     hash1 = calculate_hash(file1)
     hash2 = calculate_hash(file2)
+    print("Хэш первого файла:", hash1)
+    print("Хэш второго файла:", hash2)
 
     # Сравниваем хэш-суммы и выводим результат
     if hash1 == hash2:
